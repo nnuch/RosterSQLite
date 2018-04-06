@@ -1,0 +1,55 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.violi.therostersqliteversion10.fragments.DashboardFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite">
+    <!-- Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.70"
+
+        android:gravity="center_horizontal"
+        android:layout_marginTop="50dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/btnAdd"
+                android:text="ADD"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:layout_width="150dp"
+                android:layout_height="150dp" />
+
+            <ImageButton
+                android:id="@+id/btnView"
+                android:src="@drawable/view_icon"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:scaleType="fitXY"
+                android:text="View Data" />
+
+        </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+
+
+
+</FrameLayout>
